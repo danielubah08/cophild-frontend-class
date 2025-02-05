@@ -1,0 +1,82 @@
+.one{
+    border: 1px solid grey;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    background: black;
+    color: white;
+    box-shadow: 3px 3px black ;
+    text-shadow: 2px 2px 2px blue;
+    font-size: 40px;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background: pink;
+    height: 50vh;
+    align-items: center;
+}
+.kira{
+    width: 400px;
+    height: 400px;
+
+}
+.kira:hover{
+    width: 900px;
+    height: 900px;
+    transition-duration: 5s;
+    transition-delay: 3s;
+}
+.load{
+    width: 100px;
+    height: 30px;
+    background: black;
+    color: white; 
+}
+.load:hover{
+background: pink;
+color: black;
+}
+
+.only{
+    border: 3px solid grey;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    background: black;
+    color: white;
+    box-shadow: 3px 3px black ;
+    text-shadow: 2px 2px 2px blue;
+    font-size: 40px;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+.contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: green;
+    justify-content: center;
+}
+
+.parent{
+    background: brown;
+    color: white;
+    height: 50vh;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    background: grey;
+    width: 300px;
+    height: 180px;
+}

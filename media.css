@@ -1,0 +1,67 @@
+body{
+    background-color: orange;
+}
+
+.roman div{
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 200px;
+    width: 200px;
+    background: black;
+    text-align: center;
+    align-content: center;
+    color: pink;
+}
+
+.roman{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+    .food{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+/* for tablet */
+@media screen and ( max-width: 768px){
+    body{
+        background: green;
+    
+        
+    }
+
+    
+    .roman{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        place-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 425px){
+    body{
+        background: skyblue;
+        
+    }
+
+    .roman{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+
+    }
+
+
+
+
+
+
+
+

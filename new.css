@@ -1,0 +1,20 @@
+ul{
+    background-color: black;  
+    padding: 15px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    color: wheat;
+    text-decoration: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.logo{
+    margin-right: 35%;
+}
